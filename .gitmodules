@@ -1,0 +1,4 @@
+[submodule "middleware/external/cunit"]
+	path = middleware/external/cunit
+	url = https://gitlab.com/cunity/cunit
+	branch = master
