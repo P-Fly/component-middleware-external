@@ -1,6 +1,6 @@
 THIS_DIR      := $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 SOURCE_DIR    := $(abspath $(THIS_DIR)/../../../middleware/external/cunit)
-BUILD_DIR     := $(abspath $(THIS_DIR)/.out)
+BUILD_DIR     := $(abspath $(THIS_DIR)/out)
 
 all: pre_build cunit_build
 
